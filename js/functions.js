@@ -1,5 +1,6 @@
 /**
  * Please provide all your functions in this file.
+ * Consider using extending built-in objects.
  */
  
 "use strict";

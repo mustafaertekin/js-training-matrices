@@ -19,5 +19,11 @@ let matrix2 =
     ];
 
 
+// 01: add and display
+matrix1.add(matrix2).display();
 
-matrix1.add(matrix2)
+// 02: add and display
+matrix1.substract(matrix2).display();
+
+// 03: add and display
+matrix1.multiply(matrix2).display();
