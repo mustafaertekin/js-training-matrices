@@ -4,8 +4,10 @@
  
 "use strict";
 
-function add(){}
+function add(mx1, mx2){}
 
-function substract(){}
+function substract(mx1, mx2){}
 
-function 
+function multiply(mx1, mx2){}
+
+function display(mx){}
