@@ -1,5 +1,5 @@
 # JS-Training
-## Javascript Functions
+## Javascript Excercises
 
 ### Notes:
 - The tests are in the file "test/tests.js". You do not need to change any code in the test file!
