@@ -20,6 +20,7 @@ let matrix2 =
     ];
 
 
+
 // 01: add and display
 matrix1.add(matrix2).display();
 

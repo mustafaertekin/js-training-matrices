@@ -5,10 +5,26 @@
  
 "use strict";
 
-function add(mx){}
+Array.prototype.add = function (mx){
+    let newMatrix = [[],[],[]];
+    for (var i = 0; i < this.length; i++){
+        for (var j=0; j < this[i].length; j++){
+            newMatrix[i][j] = this[i][j] + mx[i][j];
+        }
+    }
+    return newMatrix;
+}
 
-function substract(mx){}
+Array.prototype.substract = function (mx){
+    let newMatrix = [[],[],[]];
+    for (var i = 0; i < this.length; i++){
+        for (var j=0; j < this[i].length; j++){
+            newMatrix[i][j] = this[i][j] - mx[i][j];
+        }
+    }
+    return newMatrix;
+}
 
-function multiply(mx){}
+Array.prototype.multiply = function multiply(mx){}
 
-function display(){}
+Array.prototype.display = function display(){}
