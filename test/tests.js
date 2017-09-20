@@ -30,6 +30,11 @@ describe('Test Suite - Test your own functions with edge cases', () => {
         result.should.be.equal("3,-1,3,0,1,5,3,-3,0");
     });
     
+    it('Multiply of two matrices', function(){
+        let result = matrix1.multiply(matrix2);
+        result = result.toString();
+        result.should.be.equal("1,16,-3,5,25,-5,-9,5,1");
+    });
     
       
 });
