@@ -36,5 +36,34 @@ describe('Test Suite - Test your own functions with edge cases', () => {
         result.should.be.equal("1,16,-3,5,25,-5,-9,5,1");
     });
     
+      it('Multiply of two matrices v2', function(){
+        let result = matrix1.multiply_v2(matrix2);
+        result = result.toString();
+        result.should.be.equal("1,16,-3,5,25,-5,-9,5,1");
+    });
+    
+    it('Multiply of two matrices v3', function(){
+        let result = matrix1.multiply_v3(matrix2);
+        result = result.toString();
+        result.should.be.equal("1,16,-3,5,25,-5,-9,5,1");
+    });
+    
+    it('Multiply of two matrices v4', function(){
+        let result = matrix1.multiply_v4(matrix2);
+        result = result.toString();
+        result.should.be.equal("1,16,-3,5,25,-5,-9,5,1");
+    });
+    
+    it('Multiply of two matrices v5', function(){
+        let result = matrix1.multiply_v5(matrix2);
+        result = result.toString();
+        result.should.be.equal("1,16,-3,5,25,-5,-9,5,1");
+    });
+    
+    it('Multiply of two matrices v6', function(){
+        let result = matrix1.multiply_v6(matrix2);
+        result = result.toString();
+        result.should.be.equal("1,16,-3,5,25,-5,-9,5,1");
+    });
       
 });
